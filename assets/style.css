@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-size: 14px;
+}
+
+*, *:after , *:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header
+===================== */
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+
+}
+
+.header__title{
+    color: #fff;
+}
+
+/*Navigation 
+===================== */
+
+.nav__link {
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+
+    transition: color .2s linear;
+
+    margin-right: 40px;
+
+}
+
+.nav__link:hover {
+    color: #00E0D0;
+}
+
+.active {
+    color: #00E0D0;
+}
+
+/* Main
+===================== */
+
+main {
+    height: auto;
+    display: flex;
+}
+
+/* Aside
+===================== */
+
+aside {
+    height: auto;
+    width: 20%;
+    background-color: gray;
+    padding-top: 20px;
+
+}
+
+.aside__title {
+    text-align: center;
+    border-bottom: solid 2px #000000;
+    margin: auto;
+    max-width: 75%;
+}
+
+.list__item {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+}
+
+.right__aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right__aside__info {
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #b2b25c;
+}
+
+.right__aside__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+
+.right__aside__item {
+    width: 60%;
+    height: auto;
+
+    margin: 15px;
+}
+
+.content {
+    width: 60%;
+}
+
+.main__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #c1c1c1;
+}
+
+.main__text {
+    background-color: #fff;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+.large {
+    font-size: 500px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+/* Footer
+===================== */
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 40px;
+}
+
+
+.footer__title {
+    color: #ffffff;
+}
+
+.footer__content {
+    color: #ffffff;
+}
+
